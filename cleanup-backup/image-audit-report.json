@@ -1,0 +1,326 @@
+{
+  "props": 55,
+  "duplicates": {},
+  "issues": [
+    {
+      "id": "13",
+      "issue": "exteriorImage may not match city (New York)",
+      "url": "https://source.unsplash.com/1200x800/?new+york+midtown+apartment+exterior&sig=301"
+    },
+    {
+      "id": "13",
+      "issue": "kitchenImage may not match city (New York)",
+      "url": "https://source.unsplash.com/1200x800/?new+york+kitchen+midtown&sig=302"
+    },
+    {
+      "id": "13",
+      "issue": "bathroomImage may not match city (New York)",
+      "url": "https://source.unsplash.com/1200x800/?new+york+bathroom+midtown&sig=303"
+    },
+    {
+      "id": "19",
+      "issue": "exteriorImage may not match city (São Paulo)",
+      "url": "https://source.unsplash.com/1200x800/?saopaulo+house+exterior&sig=801"
+    },
+    {
+      "id": "19",
+      "issue": "kitchenImage may not match city (São Paulo)",
+      "url": "https://source.unsplash.com/1200x800/?saopaulo+kitchen&sig=802"
+    },
+    {
+      "id": "19",
+      "issue": "bathroomImage may not match city (São Paulo)",
+      "url": "https://source.unsplash.com/1200x800/?saopaulo+bathroom&sig=803"
+    },
+    {
+      "id": "20",
+      "issue": "exteriorImage may not match city (Mexico City)",
+      "url": "https://source.unsplash.com/1200x800/?mexico+city+condesa+apartment+exterior&sig=901"
+    },
+    {
+      "id": "20",
+      "issue": "kitchenImage may not match city (Mexico City)",
+      "url": "https://source.unsplash.com/1200x800/?mexico+city+condesa+kitchen&sig=902"
+    },
+    {
+      "id": "20",
+      "issue": "bathroomImage may not match city (Mexico City)",
+      "url": "https://source.unsplash.com/1200x800/?mexico+city+condesa+bathroom&sig=903"
+    },
+    {
+      "id": "7",
+      "issue": "exteriorImage may not match city (Barcelona)",
+      "url": "https://source.unsplash.com/1200x800/?gracia+townhouse+exterior&sig=4551"
+    },
+    {
+      "id": "21",
+      "issue": "kitchenImage may not match city (Amalfi)",
+      "url": "https://source.unsplash.com/1200x800/?italian+kitchen+villa&sig=1102"
+    },
+    {
+      "id": "22",
+      "issue": "kitchenImage may not match city (Vancouver)",
+      "url": "https://source.unsplash.com/1200x800/?scandinavian+kitchen&sig=1202"
+    },
+    {
+      "id": "24",
+      "issue": "bathroomImage may not match city (Tokyo)",
+      "url": "https://source.unsplash.com/1200x800/?japanese+bathroom&sig=1403"
+    },
+    {
+      "id": "25",
+      "issue": "kitchenImage may not match city (Amsterdam)",
+      "url": "https://source.unsplash.com/1200x800/?dutch+kitchen&sig=1502"
+    },
+    {
+      "id": "26",
+      "issue": "exteriorImage may not match city (Zermatt)",
+      "url": "https://source.unsplash.com/1200x800/?swiss+chalet+exterior&sig=1601"
+    },
+    {
+      "id": "26",
+      "issue": "kitchenImage may not match city (Zermatt)",
+      "url": "https://source.unsplash.com/1200x800/?alpine+kitchen&sig=1602"
+    },
+    {
+      "id": "26",
+      "issue": "bathroomImage may not match city (Zermatt)",
+      "url": "https://source.unsplash.com/1200x800/?alpine+bathroom&sig=1603"
+    },
+    {
+      "id": "27",
+      "issue": "exteriorImage may not match city (Cape Town)",
+      "url": "https://source.unsplash.com/1200x800/?cape+town+house+exterior&sig=1701"
+    },
+    {
+      "id": "28",
+      "issue": "kitchenImage may not match city (Marrakech)",
+      "url": "https://source.unsplash.com/1200x800/?moroccan+kitchen&sig=1802"
+    },
+    {
+      "id": "28",
+      "issue": "bathroomImage may not match city (Marrakech)",
+      "url": "https://source.unsplash.com/1200x800/?moroccan+bathroom&sig=1803"
+    },
+    {
+      "id": "29",
+      "issue": "exteriorImage may not match city (New Delhi)",
+      "url": "https://source.unsplash.com/1200x800/?delhi+apartment+exterior&sig=1901"
+    },
+    {
+      "id": "29",
+      "issue": "kitchenImage may not match city (New Delhi)",
+      "url": "https://source.unsplash.com/1200x800/?indian+kitchen&sig=1902"
+    },
+    {
+      "id": "29",
+      "issue": "bathroomImage may not match city (New Delhi)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+india&sig=1903"
+    },
+    {
+      "id": "30",
+      "issue": "kitchenImage may not match city (Seoul)",
+      "url": "https://source.unsplash.com/1200x800/?korean+kitchen+modern&sig=2002"
+    },
+    {
+      "id": "31",
+      "issue": "kitchenImage may not match city (Palm Beach)",
+      "url": "https://source.unsplash.com/1200x800/?beach+kitchen&sig=2102"
+    },
+    {
+      "id": "31",
+      "issue": "bathroomImage may not match city (Palm Beach)",
+      "url": "https://source.unsplash.com/1200x800/?beach+bathroom&sig=2103"
+    },
+    {
+      "id": "33",
+      "issue": "exteriorImage may not match city (Muskoka)",
+      "url": "https://source.unsplash.com/1200x800/?lake+house+exterior&sig=2301"
+    },
+    {
+      "id": "33",
+      "issue": "kitchenImage may not match city (Muskoka)",
+      "url": "https://source.unsplash.com/1200x800/?lake+kitchen&sig=2302"
+    },
+    {
+      "id": "33",
+      "issue": "bathroomImage may not match city (Muskoka)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+lakehouse&sig=2303"
+    },
+    {
+      "id": "34",
+      "issue": "exteriorImage may not match city (São Paulo)",
+      "url": "https://source.unsplash.com/1200x800/?saopaulo+apartment+exterior&sig=2401"
+    },
+    {
+      "id": "34",
+      "issue": "bathroomImage may not match city (São Paulo)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+saopaulo&sig=2403"
+    },
+    {
+      "id": "35",
+      "issue": "kitchenImage may not match city (Lisbon)",
+      "url": "https://source.unsplash.com/1200x800/?portuguese+kitchen&sig=2502"
+    },
+    {
+      "id": "36",
+      "issue": "kitchenImage may not match city (Auckland)",
+      "url": "https://source.unsplash.com/1200x800/?kiwi+kitchen&sig=2602"
+    },
+    {
+      "id": "37",
+      "issue": "kitchenImage may not match city (Berlin)",
+      "url": "https://source.unsplash.com/1200x800/?industrial+kitchen&sig=2702"
+    },
+    {
+      "id": "38",
+      "issue": "exteriorImage may not match city (County Clare)",
+      "url": "https://source.unsplash.com/1200x800/?ireland+cottage+exterior&sig=2801"
+    },
+    {
+      "id": "38",
+      "issue": "kitchenImage may not match city (County Clare)",
+      "url": "https://source.unsplash.com/1200x800/?irish+kitchen&sig=2802"
+    },
+    {
+      "id": "38",
+      "issue": "bathroomImage may not match city (County Clare)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+ireland&sig=2803"
+    },
+    {
+      "id": "39",
+      "issue": "bathroomImage may not match city (Auckland)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+harbour&sig=2903"
+    },
+    {
+      "id": "40",
+      "issue": "kitchenImage may not match city (Istanbul)",
+      "url": "https://source.unsplash.com/1200x800/?turkish+kitchen&sig=3002"
+    },
+    {
+      "id": "41",
+      "issue": "exteriorImage may not match city (Maui)",
+      "url": "https://source.unsplash.com/1200x800/?hawaii+villa+exterior&sig=3101"
+    },
+    {
+      "id": "41",
+      "issue": "kitchenImage may not match city (Maui)",
+      "url": "https://source.unsplash.com/1200x800/?island+kitchen&sig=3102"
+    },
+    {
+      "id": "42",
+      "issue": "kitchenImage may not match city (Lagos)",
+      "url": "https://source.unsplash.com/1200x800/?nigerian+kitchen&sig=3202"
+    },
+    {
+      "id": "43",
+      "issue": "exteriorImage may not match city (Seoul)",
+      "url": "https://source.unsplash.com/1200x800/?hongdae+apartment+exterior&sig=3301"
+    },
+    {
+      "id": "43",
+      "issue": "bathroomImage may not match city (Seoul)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+hongdae&sig=3303"
+    },
+    {
+      "id": "44",
+      "issue": "exteriorImage may not match city (Albufeira)",
+      "url": "https://source.unsplash.com/1200x800/?algarve+villa+exterior&sig=3401"
+    },
+    {
+      "id": "44",
+      "issue": "kitchenImage may not match city (Albufeira)",
+      "url": "https://source.unsplash.com/1200x800/?portugal+kitchen&sig=3402"
+    },
+    {
+      "id": "44",
+      "issue": "bathroomImage may not match city (Albufeira)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+algarve&sig=3403"
+    },
+    {
+      "id": "45",
+      "issue": "exteriorImage may not match city (Buenos Aires)",
+      "url": "https://source.unsplash.com/1200x800/?buenos+aires+building+exterior&sig=3501"
+    },
+    {
+      "id": "45",
+      "issue": "kitchenImage may not match city (Buenos Aires)",
+      "url": "https://source.unsplash.com/1200x800/?argentinian+kitchen&sig=3502"
+    },
+    {
+      "id": "46",
+      "issue": "kitchenImage may not match city (Cairo)",
+      "url": "https://source.unsplash.com/1200x800/?egyptian+kitchen&sig=3602"
+    },
+    {
+      "id": "47",
+      "issue": "exteriorImage may not match city (Los Angeles)",
+      "url": "https://source.unsplash.com/1200x800/?beverly+hills+mansion&sig=3701"
+    },
+    {
+      "id": "47",
+      "issue": "kitchenImage may not match city (Los Angeles)",
+      "url": "https://source.unsplash.com/1200x800/?celebrity+kitchen&sig=3702"
+    },
+    {
+      "id": "48",
+      "issue": "kitchenImage may not match city (Christchurch)",
+      "url": "https://source.unsplash.com/1200x800/?newzealand+kitchen&sig=3802"
+    },
+    {
+      "id": "48",
+      "issue": "bathroomImage may not match city (Christchurch)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+newzealand&sig=3803"
+    },
+    {
+      "id": "49",
+      "issue": "kitchenImage may not match city (Montreal)",
+      "url": "https://source.unsplash.com/1200x800/?canadian+kitchen&sig=3902"
+    },
+    {
+      "id": "50",
+      "issue": "kitchenImage may not match city (Manila)",
+      "url": "https://source.unsplash.com/1200x800/?philippine+kitchen&sig=4002"
+    },
+    {
+      "id": "52",
+      "issue": "exteriorImage may not match city (Seoul)",
+      "url": "https://source.unsplash.com/1200x800/?gangnam+apartment+exterior&sig=4611"
+    },
+    {
+      "id": "52",
+      "issue": "kitchenImage may not match city (Seoul)",
+      "url": "https://source.unsplash.com/1200x800/?korean+kitchen&sig=4612"
+    },
+    {
+      "id": "53",
+      "issue": "exteriorImage may not match city (Mexico City)",
+      "url": "https://source.unsplash.com/1200x800/?condesa+house+exterior&sig=4621"
+    },
+    {
+      "id": "53",
+      "issue": "kitchenImage may not match city (Mexico City)",
+      "url": "https://source.unsplash.com/1200x800/?mexican+kitchen&sig=4622"
+    },
+    {
+      "id": "54",
+      "issue": "kitchenImage may not match city (Lagos)",
+      "url": "https://source.unsplash.com/1200x800/?nigerian+kitchen+modern&sig=4632"
+    },
+    {
+      "id": "54",
+      "issue": "bathroomImage may not match city (Lagos)",
+      "url": "https://source.unsplash.com/1200x800/?bathroom+ikeji&sig=4633"
+    },
+    {
+      "id": "55",
+      "issue": "exteriorImage may not match city (Cape Town)",
+      "url": "https://source.unsplash.com/1200x800/?cape+town+sea+point+exterior&sig=4641"
+    },
+    {
+      "id": "55",
+      "issue": "kitchenImage may not match city (Cape Town)",
+      "url": "https://source.unsplash.com/1200x800/?south+african+kitchen&sig=4642"
+    }
+  ]
+}
