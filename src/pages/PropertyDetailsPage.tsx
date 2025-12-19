@@ -101,7 +101,7 @@ export default function PropertyDetailsPage() {
       {/* Main Image */}
       <section className="relative h-[60vh]">
         <ImageWithFallback
-          src={property.exteriorImage || getPropertyImage(property.image)}
+          src={property.images?.[0] || property.exteriorImage || getPropertyImage(property.image)}
           alt={property.title}
           className="w-full h-full object-cover"
         />
@@ -185,15 +185,15 @@ export default function PropertyDetailsPage() {
                   <h3 className="mb-4">Photo Gallery</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="rounded overflow-hidden">
-                      <ImageWithFallback src={property.exteriorImage || getPropertyImage(property.image)} alt="Exterior" className="w-full h-40 object-cover" />
+                      <ImageWithFallback src={property.images?.[1] || property.exteriorImage || getPropertyImage(property.image)} alt="Exterior" className="w-full h-40 object-cover" />
                       <p className="text-sm text-gray-600 mt-2">Exterior</p>
                     </div>
                     <div className="rounded overflow-hidden">
-                      <ImageWithFallback src={property.kitchenImage || `https://source.unsplash.com/1200x800/?kitchen&sig=${property.id}1`} alt="Kitchen" className="w-full h-40 object-cover" />
+                      <ImageWithFallback src={property.images?.[2] || property.kitchenImage || `https://source.unsplash.com/1200x800/?kitchen&sig=${property.id}1`} alt="Kitchen" className="w-full h-40 object-cover" />
                       <p className="text-sm text-gray-600 mt-2">Kitchen</p>
                     </div>
                     <div className="rounded overflow-hidden">
-                      <ImageWithFallback src={property.bathroomImage || `https://source.unsplash.com/1200x800/?bathroom&sig=${property.id}2`} alt="Bathroom" className="w-full h-40 object-cover" />
+                      <ImageWithFallback src={property.images?.[3] || property.bathroomImage || `https://source.unsplash.com/1200x800/?bathroom&sig=${property.id}2`} alt="Bathroom" className="w-full h-40 object-cover" />
                       <p className="text-sm text-gray-600 mt-2">Bathroom</p>
                     </div>
                   </div>
