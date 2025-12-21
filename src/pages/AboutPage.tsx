@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Award, Users, Globe, TrendingUp, Shield, Heart } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useLanguage } from '../contexts/LanguageContext';
+import { getPageImage } from '../config/imageUrls';
 
 import { useEffect } from 'react';
 
@@ -48,7 +49,7 @@ export default function AboutPage() {
       <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://source.unsplash.com/1600x900/?global+real+estate,luxury&sig=9001"
+            src={getPageImage('about-global-property')}
             alt="About Golden States Estates"
             className="w-full h-full object-cover"
           />
@@ -93,7 +94,7 @@ export default function AboutPage() {
               className="relative h-[500px] rounded-lg overflow-hidden shadow-xl"
             >
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1594873604892-b599f847e859?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjMzNDczMzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={getPageImage('about-modern-apartment')}
                 alt="Golden States Estates Office"
                 className="w-full h-full object-cover"
               />

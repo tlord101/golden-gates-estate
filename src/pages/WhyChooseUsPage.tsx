@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Globe, Star, ShieldCheck, Users } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useLanguage } from '../contexts/LanguageContext';
+import { getPageImage } from '../config/imageUrls';
 
 export default function WhyChooseUsPage() {
   const { t } = useLanguage();
@@ -11,10 +12,10 @@ export default function WhyChooseUsPage() {
   }, []);
 
   const cards = [
-    { title: 'Global Access', icon: <Globe className="w-6 h-6 text-luxury-gold" />, desc: 'Curated properties across Europe, Africa, Asia and the Americas.' , img: 'https://source.unsplash.com/800x600/?world+map+property&sig=6001'},
-    { title: 'Flexible Payments', icon: <Star className="w-6 h-6 text-luxury-gold" />, desc: 'Transparent installment plans with clear examples and support.', img: 'https://source.unsplash.com/800x600/?payment+plan&sig=6002' },
-    { title: 'Trusted Support', icon: <Users className="w-6 h-6 text-luxury-gold" />, desc: 'Email-first, professional assistance from property selection to closing.', img: 'https://source.unsplash.com/800x600/?customer+support&sig=6003' },
-    { title: 'Secure Transactions', icon: <ShieldCheck className="w-6 h-6 text-luxury-gold" />, desc: 'We follow transparent processes and vetted partners for safe transactions.', img: 'https://source.unsplash.com/800x600/?secure+documents&sig=6004' },
+    { title: 'Global Access', icon: <Globe className="w-6 h-6 text-luxury-gold" />, desc: 'Curated properties across Europe, Africa, Asia and the Americas.' , img: getPageImage('why-choose-global')},
+    { title: 'Flexible Payments', icon: <Star className="w-6 h-6 text-luxury-gold" />, desc: 'Transparent installment plans with clear examples and support.', img: getPageImage('why-choose-payment') },
+    { title: 'Trusted Support', icon: <Users className="w-6 h-6 text-luxury-gold" />, desc: 'Email-first, professional assistance from property selection to closing.', img: getPageImage('why-choose-support') },
+    { title: 'Secure Transactions', icon: <ShieldCheck className="w-6 h-6 text-luxury-gold" />, desc: 'We follow transparent processes and vetted partners for safe transactions.', img: getPageImage('why-choose-secure') },
   ];
 
   return (
@@ -41,7 +42,7 @@ export default function WhyChooseUsPage() {
               </ul>
             </div>
             <div>
-              <ImageWithFallback src="https://source.unsplash.com/900x700/?global+real+estate&sig=6101" alt="Global properties" className="w-full h-64 object-cover rounded-lg shadow-md" />
+              <ImageWithFallback src={getPageImage('why-choose-global')} alt="Global properties" className="w-full h-64 object-cover rounded-lg shadow-md" />
             </div>
           </div>
 

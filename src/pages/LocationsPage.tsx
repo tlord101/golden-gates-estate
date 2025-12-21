@@ -5,6 +5,7 @@ import { MapPin } from 'lucide-react';
 import { locations } from '../data/locations';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Button } from '../components/ui/button';
+import { getLocationImage } from '../config/imageUrls';
 
 export default function LocationsPage() {
   const [filter, setFilter] = useState<'all' | 'city' | 'district' | 'region'>('all');
@@ -12,10 +13,6 @@ export default function LocationsPage() {
   const filteredLocations = filter === 'all' 
     ? locations 
     : locations.filter(loc => loc.type === filter);
-
-  const getLocationImage = () => {
-    return 'https://images.unsplash.com/photo-1739386748286-0ba8b1c8b6cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJjZWxvbmElMjBza3lsaW5lJTIwbHV4dXJ5fGVufDF8fHx8MTc2MzQ0MjIzMHww&ixlib=rb-4.1.0&q=80&w=1080';
-  };
 
   return (
     <div className="pt-20">

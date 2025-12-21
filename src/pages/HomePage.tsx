@@ -8,6 +8,7 @@ import PropertyCard from '../components/PropertyCard';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Button } from '../components/ui/button';
+import { getPageImage } from '../config/imageUrls';
 
 export default function HomePage() {
   const { t } = useLanguage();
@@ -43,7 +44,7 @@ export default function HomePage() {
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://source.unsplash.com/1600x900/?luxury+real+estate,skyline&sig=8001"
+            src={getPageImage('hero-luxury-real-estate')}
             alt="Premium properties worldwide"
             className="w-full h-full object-cover"
           />
@@ -136,7 +137,7 @@ export default function HomePage() {
                 <Link to={`/locations/${location.slug}`} className="group block">
                   <div className="relative h-80 overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
                     <ImageWithFallback
-                      src={`https://source.unsplash.com/900x700/?${encodeURIComponent(location.name)}&sig=${location.slug}`}
+                      src={getPageImage(location.image) || getPageImage('hero-luxury-real-estate')}
                       alt={location.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />

@@ -5,11 +5,12 @@ import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { Button } from '../components/ui/button';
 import { toast } from 'sonner@2.0.3';
+import { getTestimonialImage } from '../config/imageUrls';
 
 const testimonialsSeed = [
-  { id: 1, name: 'A. Johnson', location: 'New York, USA', quote: 'Fantastic service and transparent pricing. Highly recommended.', photo: 'https://source.unsplash.com/200x200/?person+business&sig=7001' },
-  { id: 2, name: 'M. García', location: 'Madrid, Spain', quote: 'Helpful team and flexible payment options made the process easy.', photo: 'https://source.unsplash.com/200x200/?person+smile&sig=7002' },
-  { id: 3, name: 'L. Okafor', location: 'Lagos, Nigeria', quote: 'Professional and responsive — great global reach.', photo: 'https://source.unsplash.com/200x200/?person+portrait&sig=7003' },
+  { id: 1, name: 'A. Johnson', location: 'New York, USA', quote: 'Fantastic service and transparent pricing. Highly recommended.', photo: getTestimonialImage(1) },
+  { id: 2, name: 'M. García', location: 'Madrid, Spain', quote: 'Helpful team and flexible payment options made the process easy.', photo: getTestimonialImage(2) },
+  { id: 3, name: 'L. Okafor', location: 'Lagos, Nigeria', quote: 'Professional and responsive — great global reach.', photo: getTestimonialImage(3) },
 ];
 
 export default function TestimonialsPage() {
@@ -36,7 +37,7 @@ export default function TestimonialsPage() {
       const json = await resp.json();
       if (resp.ok && json.ok) {
         toast.success('Thank you — your testimonial has been received.');
-        setTestimonials([{ id: Date.now(), name: form.name, location: form.location, quote: form.quote, photo: `https://source.unsplash.com/200x200/?person&sig=${Date.now()}` }, ...testimonials]);
+        setTestimonials([{ id: Date.now(), name: form.name, location: form.location, quote: form.quote, photo: getTestimonialImage(Math.floor(Math.random() * 3) + 1) }, ...testimonials]);
         setForm({ name: '', location: '', email: '', rating: 5, quote: '' });
       } else {
         toast.error('Failed to submit testimonial.');

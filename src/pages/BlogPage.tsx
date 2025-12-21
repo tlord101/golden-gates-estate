@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Button } from '../components/ui/button';
+import { getBlogImage } from '../config/imageUrls';
 
 export default function BlogPage() {
   const blogPosts = [
@@ -12,7 +13,7 @@ export default function BlogPage() {
       category: 'Investment Guide',
       date: 'November 15, 2024',
       readTime: '8 min read',
-      image: 'https://images.unsplash.com/photo-1739386748286-0ba8b1c8b6cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJjZWxvbmElMjBza3lsaW5lJTIwbHV4dXJ5fGVufDF8fHx8MTc2MzQ0MjIzMHww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: getBlogImage(1),
     },
     {
       id: '2',
@@ -21,7 +22,7 @@ export default function BlogPage() {
       category: 'Market Analysis',
       date: 'November 10, 2024',
       readTime: '6 min read',
-      image: 'https://images.unsplash.com/photo-1722452848316-c6c26ebeeb09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXJiZWxsYSUyMGx1eHVyeSUyMHZpbGxhfGVufDF8fHx8MTc2MzQ0MjIzMnww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: getBlogImage(2),
     },
     {
       id: '3',
@@ -30,7 +31,7 @@ export default function BlogPage() {
       category: 'Lifestyle',
       date: 'November 5, 2024',
       readTime: '5 min read',
-      image: 'https://images.unsplash.com/photo-1737466670202-aab34a09f3c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWRyaWQlMjBlbGVnYW50JTIwYXJjaGl0ZWN0dXJlfGVufDF8fHx8MTc2MzQ0MjIzM3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: getBlogImage(3),
     },
     {
       id: '4',
@@ -39,7 +40,7 @@ export default function BlogPage() {
       category: 'Legal Guide',
       date: 'October 28, 2024',
       readTime: '10 min read',
-      image: 'https://images.unsplash.com/photo-1594873604892-b599f847e859?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjMzNDczMzl8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: getBlogImage(4),
     },
     {
       id: '5',
@@ -48,7 +49,7 @@ export default function BlogPage() {
       category: 'Trends',
       date: 'October 20, 2024',
       readTime: '7 min read',
-      image: 'https://images.unsplash.com/photo-1694967832949-09984640b143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB2aWxsYSUyMHBvb2x8ZW58MXx8fHwxNzYzNDQxMzAxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: getBlogImage(5),
     },
     {
       id: '6',
@@ -57,7 +58,7 @@ export default function BlogPage() {
       category: 'Market Analysis',
       date: 'October 15, 2024',
       readTime: '9 min read',
-      image: 'https://images.unsplash.com/photo-1661362715810-74dbbd4b51a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBwZW50aG91c2UlMjBiYXJjZWxvbmF8ZW58MXx8fHwxNzYzNDQyMjMxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: getBlogImage(6),
     },
   ];
 

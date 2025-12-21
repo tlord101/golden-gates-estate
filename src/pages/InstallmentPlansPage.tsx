@@ -3,6 +3,7 @@ import { Check } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Button } from '../components/ui/button';
 import { useLanguage } from '../contexts/LanguageContext';
+import { getPageImage } from '../config/imageUrls';
 
 export default function InstallmentPlansPage() {
   const { t } = useLanguage();
@@ -19,7 +20,7 @@ export default function InstallmentPlansPage() {
     <div className="pt-20">
       <section className="relative h-64 md:h-96 overflow-hidden">
         <ImageWithFallback
-          src="https://source.unsplash.com/1600x900/?real+estate+worldwide&sig=5001"
+          src={getPageImage('installments-real-estate')}
           alt="Installment Plans Background"
           className="absolute inset-0 w-full h-full object-cover"
         />
