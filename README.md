@@ -1,7 +1,4 @@
 
-  # Luxury Real Estate Website UI
-
-  This is a code bundle for Luxury Real Estate Website UI. The original project is available at https://www.figma.com/design/dcwGZFqfG2smTMuN6CJrPL/Luxury-Real-Estate-Website-UI.
 
   ## Running the code
 
