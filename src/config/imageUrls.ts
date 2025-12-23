@@ -1,77 +1,77 @@
 /**
- * Image URL configuration - References images from the public folder
- * All paths are relative to the public folder (e.g., /images/properties/...)
+ * Image URL configuration - Using Unsplash images
+ * All images are served from Unsplash CDN for reliable availability
  */
 
 // Property Images
 export const propertyImages: Record<string, string> = {
-  'barcelona-penthouse-luxury': '/images/properties/barcelona-penthouse-luxury.jpg',
-  'barcelona-apartment-modern': '/images/properties/barcelona-apartment-modern.jpg',
-  'barcelona-villa-contemporary': '/images/properties/barcelona-villa-contemporary.jpg',
-  'barcelona-beach-penthouse': '/images/properties/barcelona-beach-penthouse.jpg',
-  'barcelona-apartment-sarria': '/images/properties/barcelona-apartment-sarria.jpg',
-  'barcelona-loft-poblenou': '/images/properties/barcelona-loft-poblenou.jpg',
-  'barcelona-townhouse-gracia': '/images/properties/barcelona-townhouse-gracia.jpg',
-  'sitges-estate-luxury': '/images/properties/sitges-estate-luxury.jpg',
-  'madrid-apartment-salamanca': '/images/properties/madrid-apartment-salamanca.jpg',
-  'marbella-villa-beachfront': '/images/properties/marbella-villa-beachfront.jpg',
-  'valencia-penthouse-seafront': '/images/properties/valencia-penthouse-seafront.jpg',
-  'ibiza-villa-luxury': '/images/properties/ibiza-villa-luxury.jpg',
+  'barcelona-penthouse-luxury': 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80',
+  'barcelona-apartment-modern': 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80',
+  'barcelona-villa-contemporary': 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+  'barcelona-beach-penthouse': 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+  'barcelona-apartment-sarria': 'https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&q=80',
+  'barcelona-loft-poblenou': 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
+  'barcelona-townhouse-gracia': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+  'sitges-estate-luxury': 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80',
+  'madrid-apartment-salamanca': 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80',
+  'marbella-villa-beachfront': 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
+  'valencia-penthouse-seafront': 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80',
+  'ibiza-villa-luxury': 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80',
 };
 
 // Location Images
 export const locationImages: Record<string, string> = {
-  'barcelona-eixample-architecture': '/images/locations/barcelona-eixample.jpg',
-  'barcelona-gracia-neighborhood': '/images/locations/barcelona-gracia.jpg',
-  'barcelona-poblenou-waterfront': '/images/locations/barcelona-poblenou.jpg',
-  'barcelona-sarria-charming': '/images/locations/barcelona-sarria.jpg',
-  'barcelona-gothic-quarter': '/images/locations/barcelona-gothic-quarter.jpg',
-  'sitges-mediterranean': '/images/locations/sitges.jpg',
-  'madrid-salamanca-elegant': '/images/locations/madrid-salamanca.jpg',
-  'madrid-retiro-luxurious': '/images/locations/madrid-retiro.jpg',
-  'madrid-chamber': '/images/locations/madrid-chamber.jpg',
-  'marbella-golden-mile': '/images/locations/marbella-golden-mile.jpg',
-  'marbella-puerto-banus': '/images/locations/marbella-puerto-banus.jpg',
-  'valencia-city-of-arts': '/images/locations/valencia-city-of-arts.jpg',
-  'valencia-beachfront-penthouse': '/images/locations/valencia-beachfront.jpg',
-  'ibiza-sunset': '/images/locations/ibiza-sunset.jpg',
-  'palma-mallorca': '/images/locations/palma-mallorca.jpg',
-  'lisbon-miradouro': '/images/locations/lisbon.jpg',
-  'porto-riverside': '/images/locations/porto.jpg',
-  'lagos-marina': '/images/locations/lagos.jpg',
-  'cape-town-table-mountain': '/images/locations/cape-town.jpg',
-  'dubai-marina': '/images/locations/dubai-marina.jpg',
-  'singapore-skyline': '/images/locations/singapore.jpg',
-  'tokyo-tower': '/images/locations/tokyo.jpg',
+  'barcelona-eixample-architecture': 'https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=80',
+  'barcelona-gracia-neighborhood': 'https://images.unsplash.com/photo-1562883676-8c7feb83f09b?w=800&q=80',
+  'barcelona-poblenou-waterfront': 'https://images.unsplash.com/photo-1579282240050-352db0a14c21?w=800&q=80',
+  'barcelona-sarria-charming': 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80',
+  'barcelona-gothic-quarter': 'https://images.unsplash.com/photo-1564221710304-0b37c8b9d729?w=800&q=80',
+  'sitges-mediterranean': 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
+  'madrid-salamanca-elegant': 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80',
+  'madrid-retiro-luxurious': 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
+  'madrid-chamber': 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80',
+  'marbella-golden-mile': 'https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=800&q=80',
+  'marbella-puerto-banus': 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
+  'valencia-city-of-arts': 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80',
+  'valencia-beachfront-penthouse': 'https://images.unsplash.com/photo-1585299062030-f0bd0fedc0ce?w=800&q=80',
+  'ibiza-sunset': 'https://images.unsplash.com/photo-1513415277930-6f5322c1c556?w=800&q=80',
+  'palma-mallorca': 'https://images.unsplash.com/photo-1590073844006-33379778ae09?w=800&q=80',
+  'lisbon-miradouro': 'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800&q=80',
+  'porto-riverside': 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&q=80',
+  'lagos-marina': 'https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=800&q=80',
+  'cape-town-table-mountain': 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
+  'dubai-marina': 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80',
+  'singapore-skyline': 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&q=80',
+  'tokyo-tower': 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
 };
 
 // Page Images
 export const pageImages: Record<string, string> = {
-  'hero-luxury-real-estate': '/images/pages/hero-luxury.jpg',
-  'about-global-property': '/images/pages/about-global.jpg',
-  'about-modern-apartment': '/images/pages/about-apartment.jpg',
-  'installments-real-estate': '/images/pages/installments.jpg',
-  'why-choose-global': '/images/pages/why-choose-global.jpg',
-  'why-choose-payment': '/images/pages/why-choose-payment.jpg',
-  'why-choose-support': '/images/pages/why-choose-support.jpg',
-  'why-choose-secure': '/images/pages/why-choose-secure.jpg',
+  'hero-luxury-real-estate': 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80',
+  'about-global-property': 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80',
+  'about-modern-apartment': 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
+  'installments-real-estate': 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80',
+  'why-choose-global': 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
+  'why-choose-payment': 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80',
+  'why-choose-support': 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80',
+  'why-choose-secure': 'https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80',
 };
 
 // Testimonial Images
 export const testimonialImages: Record<number, string> = {
-  1: '/images/testimonials/testimonial-1.jpg',
-  2: '/images/testimonials/testimonial-2.jpg',
-  3: '/images/testimonials/testimonial-3.jpg',
+  1: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
+  2: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80',
+  3: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
 };
 
 // Blog Images
 export const blogImages: Record<number, string> = {
-  1: '/images/pages/blog-barcelona.jpg',
-  2: '/images/pages/blog-marbella.jpg',
-  3: '/images/pages/blog-madrid.jpg',
-  4: '/images/pages/blog-modern-living.jpg',
-  5: '/images/pages/blog-luxury-villa.jpg',
-  6: '/images/pages/blog-penthouse.jpg',
+  1: 'https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=80',
+  2: 'https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=800&q=80',
+  3: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80',
+  4: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+  5: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+  6: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80',
 };
 
 /**
@@ -99,7 +99,7 @@ export function getPageImage(imageKey: string): string {
  * Get testimonial image URL with fallback
  */
 export function getTestimonialImage(index: number): string {
-  return testimonialImages[index] || '/images/testimonials/testimonial-default.jpg';
+  return testimonialImages[index] || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80';
 }
 
 /**
