@@ -305,4 +305,4 @@ export default function PropertyDetailsPage() {
       </section>
     </div>
   );
-}
+
